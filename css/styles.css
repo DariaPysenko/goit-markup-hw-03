@@ -53,8 +53,8 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation {
@@ -207,7 +207,7 @@ a {
   padding-left: 0px;
 }
 
-.feature-list {
+.features-list {
   width: 270px;
   margin-top: 30px;
   margin-left: 30px;
@@ -260,6 +260,7 @@ a {
 }
 .work-item {
   width: 270px;
+  background-color: #ffffff;
 }
 
 .work-item:not(:first-child) {
@@ -370,6 +371,7 @@ a {
   flex-wrap: wrap;
   align-items: flex-start;
   margin-right: -30px;
+  margin-bottom: 50px;
 }
 
 .port-items {
@@ -395,7 +397,6 @@ a {
   cursor: pointer;
   background-color: var(--project-filter-color);
   padding: 6px 22px;
-  margin-bottom: 50px;
 }
 
 .project-filter-items:not(:last-child) {
