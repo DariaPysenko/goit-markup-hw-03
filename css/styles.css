@@ -135,6 +135,9 @@ a {
   padding-bottom: 10px;
 }
 
+.contact-item-last {
+  margin-right: 0px;
+}
 .contact-item {
   margin-right: 50px;
 }
@@ -338,14 +341,11 @@ a {
 .logo-footer {
   color: var(--secondary-color);
 }
-.logo-footer-main {
-  margin-bottom: 20px;
-}
 
 .footer-adress-section {
   display: block;
 
-  margin: 0 auto;
+  margin-bottom: -9px;
 }
 
 .footer-container {
@@ -372,7 +372,7 @@ a {
   flex-wrap: wrap;
   align-items: flex-start;
   margin-right: -30px;
-  margin-bottom: 50px;
+  margin-bottom: -30px;
 }
 
 .port-items {
