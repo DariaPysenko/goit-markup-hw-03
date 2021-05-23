@@ -115,8 +115,9 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .menu-link:hover,
@@ -136,6 +137,7 @@ a {
 }
 
 .contact-item-last {
+  margin-left: 0px;
   margin-right: 0px;
 }
 .contact-item {
@@ -316,7 +318,6 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  margin-bottom: 9px;
 }
 
 .contact-footer-link {
@@ -326,8 +327,12 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--contact-footer-link-color);
+}
+
+.footer-adress-section li::not(:last-child) {
   margin-bottom: 9px;
 }
+
 .address-font-style {
   font-style: normal;
   margin-top: 20px;
