@@ -345,6 +345,11 @@ a {
 
 .logo-footer-main {
   margin-right: 0px;
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
 }
 .logo-footer {
   color: var(--secondary-color);
