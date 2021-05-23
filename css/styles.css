@@ -343,6 +343,9 @@ a {
   color: var(--accent-color);
 }
 
+.logo-footer-main {
+  margin-right: 0px;
+}
 .logo-footer {
   color: var(--secondary-color);
 }
