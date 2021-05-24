@@ -53,8 +53,6 @@ body {
 .header-container {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .navigation {
@@ -132,8 +130,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--subtitle-color);
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .contact-item-last {
@@ -158,6 +154,13 @@ a {
   background-color: var(--secondary-background-color);
   padding-bottom: 200px;
   padding-top: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero.jpg);
+  max-width: 1600px;
+  background-size: cover;
 }
 
 .hero-title {
@@ -209,6 +212,7 @@ a {
 .feature-set {
   display: flex;
   margin-left: -30px;
+  margin-top: -30px;
   padding-left: 0px;
 }
 
@@ -329,7 +333,7 @@ a {
   color: var(--contact-footer-link-color);
 }
 
-.footer-adress-section li::not(:last-child) {
+.footer-adress-section li:not(:last-child) {
   margin-bottom: 9px;
 }
 
@@ -437,4 +441,25 @@ a {
 
 .menu-link.current {
   color: var(--accent-color);
+}
+/* SVG */
+.envelope {
+  display: inline-block;
+  margin-right: 10px;
+  fill: var(--subtitle-color);
+}
+
+.menu-link:hover .envelope,
+.menu-link:focus .envelope: {
+  fill: var(--accent-color);
+}
+
+.smartphone {
+  display: inline-block;
+  margin-right: 10px;
+  fill: var(--subtitle-color);
+}
+.contact-link:hover .smartphone,
+.contact-link:focus .smartphone {
+  fill: var(--accent-color);
 }
